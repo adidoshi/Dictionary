@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(check.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Fondamento', cursive;
+    min-height: 100vh;
+
+}
+.container{
+    margin: 0 auto;
+}
+nav{
+    background: rgb(144, 57, 194);
+    color: whitesmoke;
+    padding: 1rem 0;
+    max-width: 1400px;
+    /* max-width: 100%; */
+    text-align: center;
+}
+
+section.input{
+    padding-top:100px;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h2{
+    font-size: 36px;
+}
+.formWrap{
+    display:flex;
+    justify-content: center;
+}
+
+.inputWrap{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(12, 12, 12);
+    margin-top: 20px;
+}
+input{
+    border:none;
+    padding: 10px;
+    font-size: 16px;
+    max-width: 500px;
+    outline: none;
+}
+button{
+    background: rgb(144, 57, 194);
+    color:white;
+    font-size:15px;
+    font-weight: bold;
+    height:100%;
+    padding:0 20px;
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+    background: rgb(187, 39, 206);
+}
+section.data{
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.loading{
+    display: none;
+} 
+section.data p.def{
+    font-size: 20px;
+    color:rgb(161, 68, 24);
+    line-height: 1.6;
+    font-weight: bold;
+}
+.suggested{
+    background: rgb(179, 169, 80);
+    color:rgb(9, 31, 44);
+    padding: 2px 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.audio{
+    margin-top:25px;
+}
