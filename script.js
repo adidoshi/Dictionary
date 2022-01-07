@@ -68,7 +68,7 @@ async function getData(word) {
     if (soundName) {
         renderSound(soundName);
     }
-    console.log(data);
+   // console.log(data);
 }
 
 function renderSound(soundName) {
